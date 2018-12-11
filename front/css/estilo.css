@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f0f0f0;
+    font-family: Arial;
+}
+header #logo{
+    background: url("../img/logo_cabecalho.png") center top no-repeat;
+    text-indent: -99em;
+    height: 76px;
+    margin-top: 1em;
+}
+section a{
+    display: block;
+    width: 15em;
+    margin: 0 auto;
+}
+section a button{
+    width: 100%;
+    margin-top: 3em;
+    color: #fff;
+    background: #888;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+footer{
+    background: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    font-size: 0.8em;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+form input[type="text"],
+form input[type="number"]{
+    padding: 0.5em;
+    display: block;
+    margin-bottom: 1em;
+}
+form input[type="text"]{
+    width: 100%;
+}
+h3{
+    margin: 0.8em 0 0.4em 0;
+}
